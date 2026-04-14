@@ -1,16 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <!-- Página Inicial -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://tsenpeed.github.io/html_study/</loc>
-  <lastmod>2026-03-31T00:35:01+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/index.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
+  <!-- Páginas dos Consoles - 5ª Geração -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/playstation1.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/nintendo64.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas dos Consoles - 6ª Geração -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/playstation2.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/gamecube.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/xbox.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas dos Consoles - 7ª Geração -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/wii.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/xbox360.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/playstation3.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas dos Consoles - 8ª Geração -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/wiiu.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas dos Consoles - 9ª Geração -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/switch.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Páginas Especiais -->
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/fotos.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/galeria.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/links.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tsenpeed.github.io/html_study/contato.html</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>
