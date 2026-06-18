@@ -76,7 +76,41 @@ header {
 nav {
   background-color: var(--secondary-color);
   border-bottom: 3px solid var(--primary-color);
-  overflow-x: auto;
+}
+
+/* Botão hamburguer - escondido no desktop */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-right: auto;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Anima o botão para um "X" quando o menu está aberto */
+.menu-toggle.ativo span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.ativo span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.ativo span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 nav ul {
@@ -563,13 +597,39 @@ a:hover {
     font-size: 1.5rem;
   }
 
-  nav ul {
+  /* No mobile, o nav empilha o botão e o menu, alinhados à esquerda */
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Mostra o botão hamburguer no mobile, alinhado à esquerda */
+  .menu-toggle {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 0;
+  }
+
+  /* Esconde o menu por padrão no mobile */
+  nav ul.nav-menu {
+    width: 100%;
     flex-direction: column;
     gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: max-height 0.4s ease;
+  }
+
+  /* Mostra o menu quando recebe a classe .ativo via JavaScript */
+  nav ul.nav-menu.ativo {
+    max-height: 100vh;
   }
 
   nav a {
     padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--accent-color);
   }
 
   .hero h1 {
